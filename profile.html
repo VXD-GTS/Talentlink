@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>vSearch</title>
+<!-- Bootstrap -->
+<!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+<link href="css/bootstrap-3.3.7.css" rel="stylesheet" type="text/css">
+<link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+<link href="css/vsearch.css" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-talentlink navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header col-lg-9 col-md-offset-1 col-md-8 col-sm-8" > <a class="navbar-brand hidden-xs col-sm-3 col-md-2 col-lg-2" href="result-people.html">Talentlink</a>
+      <form class="navbar-left col-xs-10 col-sm-9 col-lg-10 col-md-10"  role="search">
+        <div class="form-group">
+          <div class="input-group">
+            <input type="text" class="form-control nav-search-field" placeholder="Search">
+            <div class="input-group-addon"><i class="mdi mdi-magnify"></i></div>
+          </div>
+        </div>
+      </form>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+    </div>
+    <div class="collapse navbar-collapse" id="topFixedNavbar1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="result-people.html" class="btn"><i class="mdi mdi-account-multiple"></i> Telant Group</a> </li>
+        <li><a href="profile.html" class="btn nav-item-profile">
+          <div class="img-circle nav-item-profile-avator" style="background-image:url(images/persona1.jpg);"></div>
+          Hi! Cathy</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+  <div class="container">
+    <div class="well well-sm well-profile">
+      <div class="row">
+        <div class="col-md-7 col-lg-7 profile-detail">
+          <div class="row profile-main-detail">
+            <div class="col-md-4 col-sm-3 col-xs-12 col-lg-3 text-center">
+              <div class="profile-avator-container">
+                <div class="img-rounded img-responsive profile-avator" style="background-image: url(images/persona1.jpg);"></div>
+                <a href="#" id="upload-images"  data-toggle="tooltip" data-placement="top" title="Upload photo"><i class="mdi mdi-camera"></i></a> </div>
+            </div>
+            <div class="col-sm-9 col-xs-12 col-md-8 col-lg-offset-0 col-md-offset-0 col-lg-9">
+              <div class="clearfix">
+                <div class="pull-left">
+                  <h5>Yina Li Tucker </h5>
+                </div>
+              </div>
+              <div class="clear people-details-item">Administration</div>
+              <div class="clear people-details-item">Senior Account Manager</div>
+              <div class="clear people-details-item"><i class="mdi mdi-account-card-details" data-toggle="tooltip" data-placement="top" title="Staff ID"></i> HK12345</div>
+              <div class="pull-left people-details-item"><i class="mdi mdi-phone" data-toggle="tooltip" data-placement="top" title="Extension"></i> 1234</div>
+              <div class="pull-right people-details-oof" data-toggle="tooltip" data-placement="top" title="Out of office from 12 Mar to 13 Mar"><i class="mdi mdi-airplane"></i></div>
+            </div>
+          </div>
+          <!--/.col-xs-6.col-lg-4-->
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 form-group">
+              <label for="name"> Status </label>
+              <input type="text" id="name" name="name" class="form-control form-control-profile">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6  col-sm-6  form-group">
+              <label for="email"> Chinese Name</label>
+              <div class="profile-item">李伊娜</div>
+            </div>
+            <div class="col-xs-6  col-sm-6  form-group">
+              <label for="mobile"> Mobile No. </label>
+              <input type="text" id="mobile" name="mobile" class="form-control form-control-profile">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6  col-sm-6  form-group">
+              <label for="office"> Office No.</label>
+              <div class="profile-item">+852 2345 1345</div>
+            </div>
+            <div class="col-xs-6  col-sm-6  form-group">
+              <label for="mobile"> Fax No. </label>
+              <div class="profile-item">+852 2345 1346</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12  col-sm-12  form-group">
+              <label for="email"> Email </label>
+              <div class="profile-item"><a href="mailto:ying.li.tucher@companyemail.com">ying.li.tucher@companyemail.com</a></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 form-group">
+              <label for="location"> Location </label>
+              <div class="profile-item">Hong Kong <a href="" data-toggle="tooltip" data-placement="top" title="View map"><i class="mdi mdi-map"></i></a></div>
+            </div>
+          </div>
+          <div class="row text-right">
+            <div class="col-xs-12 text-center">
+              <input type="submit" value="Submit" name="send" class="btn vsearch-btn-primary">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 col-lg-5 profile-relationship">
+          <h5>Relationship</h5>
+          <ul class="relationship">
+            <li class="superior">
+              <ul class="sections">
+                <li class="relation-tile"> <a href="#">
+                  <div class="pull-left org-pic" style="background-image: url(images/persona1.jpg);"></div>
+                  <div class="pull-left org-details">
+                    <p class="name">Vincent SF Yuen</p>
+                    <p class="title">Senior Manager</p>
+                    <p class="relation-type mute">
+                    <div class="relation-tag relation-type-1">Superior</div>
+                    <div class="relation-tag relation-type-2">Boss</div>
+                    <div class="relation-tag relation-type-3">Coach</div>
+                    <div class="relation-tag relation-type-4">Partner</div>
+                    </p>
+                  </div>
+                  </a> </li>
+                <li class="relation-tile"> <a href="#">
+                  <div class="pull-left org-pic" style="background-image: url(images/persona1.jpg);"></div>
+                  <div class="pull-left org-details">
+                    <p class="name">Vincent SF Yuen</p>
+                    <p class="title">Senior Manager</p>
+                    <p class="relation-type mute">
+                    <div class="relation-tag relation-type-1">Superior</div>
+                    <div class="relation-tag relation-type-2">Boss</div>
+                    <div class="relation-tag relation-type-3">Coach</div>
+                    <div class="relation-tag relation-type-4">Partner</div>
+                    </p>
+                  </div>
+                  </a> </li>
+              </ul>
+            </li>
+            <li class="subordinate">
+              <div class="self relation-tile"> <a href="#">
+                <div class="pull-left org-pic" style="background-image: url(images/persona1.jpg);"></div>
+                <div class="pull-left org-details">
+                  <p class="name">Vincent SF Yuen</p>
+                  <p class="title">Senior Manager</p>
+                </div>
+                </a> </div>
+              <ul class="sections">
+                <li class="relation-tile"> <a href="#">
+                  <div class="pull-left org-pic" style="background-image: url(images/persona1.jpg);"></div>
+                  <div class="pull-left org-details">
+                    <p class="name">Nancy J Chan</p>
+                    <p class="title">Senior Manager</p>
+                    <p class="relation-type mute">
+                    <div class="relation-tag relation-type-1">Subordinate</div>
+                    <div class="relation-tag relation-type-4">GTS Account Manager</div>
+                    </p>
+                  </div>
+                  </a> </li>
+                <li class="relation-tile"> <a href="#">
+                  <div class="pull-left org-pic" style="background-image: url(images/persona1.jpg);"></div>
+                  <div class="pull-left org-details">
+                    <p class="name">David M Wu</p>
+                    <p class="title">Senior Manager</p>
+                    <p class="relation-type mute">
+                    <div class="relation-tag relation-type-1">Subordinate</div>
+                    <div class="relation-tag relation-type-2">Secretary</div>
+                    <div class="relation-tag relation-type-3">Coachee</div>
+                    </p>
+                  </div>
+                  </a> </li>
+                <li class="relation-tile"> <a href="#">
+                  <div class="pull-left org-pic" style="background-image: url(images/persona1.jpg);"></div>
+                  <div class="pull-left org-details">
+                    <p class="name">Helen Fung</p>
+                    <p class="title">Senior Manager</p>
+                    <p class="relation-type mute">
+                    <div class="relation-tag relation-type-1">Subordinate</div>
+                    <div class="relation-tag relation-type-3">Coachee</div>
+                    </p>
+                  </div>
+                  </a> </li>
+
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <footer>
+    <hr>
+    <img src="images/pwc-logo.png" class="logo" alt="PwC Logo"> <span class="copyright"><small class="text-muted">&copy; <span id="year"></span> Company, Inc.</small></span> </footer>
+</div>
+<!--/.container--> 
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<!-- <script src="js/bootstrap.js"></script> --> 
+<script src="js/bootstrap-3.3.7.js"></script> 
+<script src="js/modernizr-latest.js"></script> 
+<script src="js/ie-emulation-modes-warning.js"></script> 
+<script src="js/function.js"></script>
+</body>
+</html>
